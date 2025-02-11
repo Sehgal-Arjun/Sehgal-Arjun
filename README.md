@@ -16,7 +16,4 @@ I'm a passionate developer with a keen interest in open-source projects and comm
 - **DevOps:** Docker, Kubernetes, Jenkins, GitHub Actions
 - **Others:** Git, REST APIs, GraphQL
 
-## 📊 Languages
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sehgal-Arjun&layout=compact&theme=radical)
-
 Thanks for visiting my profile! Feel free to explore my repositories and reach out if you have any questions or collaboration ideas :D
