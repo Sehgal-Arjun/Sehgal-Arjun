@@ -5,7 +5,7 @@ I'm a passionate developer with a keen interest in open-source projects and comm
 
 - 🌱 I’m currently learning to use Ionic for mobile app development, and taking courses in database management, data structures, and software engineering.
 - 👯 I’m looking to collaborate on open-source projects related to software development and AI.
-- 📫 How to reach me: [Instagram](https://www.instagram.com/_arjunsehgal_/) | [LinkedIn](https://www.linkedin.com/in/sehgal-arjun/) | [Email](a5sehgal@uwaterloo.ca)
+- 📫 How to reach me: [Instagram](https://www.instagram.com/_arjunsehgal_/) | [LinkedIn](https://www.linkedin.com/in/sehgal-arjun/) | [Email (a5sehgal@uwaterloo.ca)](mailto:a5sehgal@uwaterloo.ca)
 - ⚡ Fun fact: I love photography! Take a look at some of [my photos](https://vsco.co/arjun-sehgal/gallery) ;)
 
 ## 🛠️ Technologies & Tools
