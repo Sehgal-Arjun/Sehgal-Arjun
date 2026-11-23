@@ -43,11 +43,13 @@ def square(path, size):
     return im.resize((size, size), Image.LANCZOS)
 
 
-def layout(paths, width, cols, gap, radius):
-    width, gap, radius = width * SCALE, gap * SCALE, radius * SCALE
+def layout(paths, width, cols, gap, radius, bottom=16):
+    """`bottom` is transparent space under the photos, so the link chips below
+    get some breathing room (GitHub ignores CSS margins in READMEs)."""
+    width, gap, radius, bottom = width * SCALE, gap * SCALE, radius * SCALE, bottom * SCALE
     tile = (width - gap * (cols - 1)) // cols
     rows = (len(paths) + cols - 1) // cols
-    canvas = Image.new("RGBA", (width, rows * tile + (rows - 1) * gap), (0, 0, 0, 0))
+    canvas = Image.new("RGBA", (width, rows * tile + (rows - 1) * gap + bottom), (0, 0, 0, 0))
     for i, p in enumerate(paths):
         x = (i % cols) * (tile + gap)
         y = (i // cols) * (tile + gap)
