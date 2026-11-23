@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 358 28" width="358" height="28" role="img" aria-label="Open my photo gallery">
+<text x="0" y="18.2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#1a7f37" style="white-space:pre">$ open ~/photos</text>
+<text x="358" y="18.2" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#59636e" style="white-space:pre">see all ↗</text>
+</svg>

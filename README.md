@@ -11,6 +11,14 @@
 
 <a href="https://vsco.co/arjun-sehgal/gallery">
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/photos/header-phone-dark.svg">
+    <source media="(max-width: 600px)" srcset="assets/photos/header-phone-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/photos/header-desktop-dark.svg">
+    <img src="assets/photos/header-desktop-light.svg" width="100%" alt="Open my photo gallery (see all)">
+  </picture>
+</a>
+<a href="https://vsco.co/arjun-sehgal/gallery">
+  <picture>
     <source media="(max-width: 600px)" srcset="assets/photos/grid.webp">
     <img src="assets/photos/row.webp" width="100%" alt="Four photos from my gallery, a new set every day">
   </picture>

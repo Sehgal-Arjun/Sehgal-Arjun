@@ -4,6 +4,7 @@
 Writes:
   assets/card/desktop-light.svg, desktop-dark.svg   (side by side, 840 wide)
   assets/card/phone-light.svg,   phone-dark.svg     (stacked, 358 wide)
+  assets/photos/header-*.svg                        ("$ open ~/photos · see all" row, linked in the README)
   assets/links/<name>-light.svg, <name>-dark.svg    (pill-shaped link chips)
 
 Edit the copy in CONTENT below, then run:  python3 scripts/build_readme.py
@@ -243,12 +244,7 @@ def card(theme, layout):
     parts += low.out
     parts.append(t_markup)
     card_h = round(low.y + pad_b)
-
-    # --- "$ open ~/photos" row under the card
-    below = Flow(card_h + 24)
-    below.mono(0, "$ open ~/photos", cmd_sz, cmd_lh)
-    below.mono(W, "see all ↗", cmd_sz, cmd_lh, cls="cmdm", anchor="end")
-    H = round(below.y + cmd_lh + 6)
+    H = card_h
 
     css = f"""
 text{{white-space:pre}}
@@ -257,7 +253,7 @@ text{{white-space:pre}}
 .m{{fill:{c["muted"]};font-size:{sz}px}}
 .h{{fill:{c["ink"]};font-weight:700;letter-spacing:-0.02em}}
 .b{{font-weight:700}}
-.lnk{{fill:{c["accent"]};text-decoration:underline}}
+.lnk{{fill:{c["accent"]}}}
 .cmd,.cmdm,.mk{{font-family:{MONO}}}
 .cmd,.mk{{fill:{c["accent"]}}}
 .cmdm{{fill:{c["muted"]}}}
@@ -274,7 +270,21 @@ text{{white-space:pre}}
 <defs>{t_defs}</defs>
 <rect x="0.5" y="0.5" width="{W - 1}" height="{card_h - 1}" rx="{16 if desktop else 14}" fill="{c["card"]}" stroke="{c["line"]}"/>
 {chr(10).join(parts)}
-{chr(10).join(below.out)}
+</svg>
+"""
+
+
+def photos_header(theme, layout):
+    """The "$ open ~/photos · see all ↗" row. Its own image so the README can wrap it in a link."""
+    c = THEMES[theme]
+    desktop = layout == "desktop"
+    W = 840 if desktop else 358
+    size = 13 if desktop else 12
+    H = 28
+    y = baseline(4, 20, size)
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Open my photo gallery">
+<text x="0" y="{y}" font-family="{MONO}" font-size="{size}" fill="{c["accent"]}" style="white-space:pre">$ open ~/photos</text>
+<text x="{W}" y="{y}" text-anchor="end" font-family="{MONO}" font-size="{size}" fill="{c["muted"]}" style="white-space:pre">see all ↗</text>
 </svg>
 """
 
@@ -302,6 +312,7 @@ def main():
             path = ROOT / f"assets/card/{layout}-{theme}.svg"
             path.write_text(card(theme, layout))
             print(f"wrote {path.relative_to(ROOT)} ({path.stat().st_size // 1024} KB)")
+            (ROOT / f"assets/photos/header-{layout}-{theme}.svg").write_text(photos_header(theme, layout))
     for name in LINKS:
         for theme in THEMES:
             (ROOT / f"assets/links/{name}-{theme}.svg").write_text(chip(name, theme))
