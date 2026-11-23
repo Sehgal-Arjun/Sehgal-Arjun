@@ -1,0 +1,458 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 358 902" width="358" height="902" role="img" aria-label="Hi! I&#x27;m Arjun. I&#x27;m a passionate developer with a keen interest in open-source projects and community building. Using Swift to develop Resolve. Taking courses in software engineering, algorithms, testing, and user interfaces. Looking to collaborate on open-source projects in software development and AI. Fun fact: I love photography! Take a look at some of my photos ;). Now: Exchange semester at the Technical University of Munich; Software Engineer at Ivo AI in San Francisco. Tools: Swift, SwiftUI, TypeScript, React, Next.js, Node.js, Tailwind CSS, Python, Supabase, Firebase, PostgreSQL, Docker, Git, Figma, JavaScript, Java, C++, GitHub.">
+<style>
+text{white-space:pre}
+.t,.m,.h{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}
+.t{fill:#f0f6fc;font-size:14.5px}
+.m{fill:#9198a1;font-size:14.5px}
+.h{fill:#f0f6fc;font-weight:700;letter-spacing:-0.02em}
+.b{font-weight:700}
+.lnk{fill:#3fb950;text-decoration:underline}
+.cmd,.cmdm,.mk{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.cmd,.mk{fill:#3fb950}
+.cmdm{fill:#9198a1}
+.rule{stroke:#2a313c;stroke-width:1}
+@keyframes tk{from{transform:translateX(0)}to{transform:translateX(-1786.5px)}}.tk{animation:tk 81.2s linear infinite}@media (prefers-reduced-motion: reduce){.tk{animation:none}}
+
+.pp text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:14px;font-weight:700;white-space:pre}
+.pp-c,.pp-k{fill:#ffffff;opacity:0;animation:pp-print .35s ease-out forwards}
+@keyframes pp-print{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+.pp-k{transform-box:fill-box}
+.pp-s{fill:#3fb950;opacity:0;animation:pp-type 8000ms steps(1) infinite}
+@keyframes pp-type{0%{opacity:1}80%{opacity:0}}
+@keyframes pp-handA{0.00%{transform:none}0.00%{transform:translate(0,2px)}1.38%{transform:none}1.90%{transform:none}2.40%{transform:translate(0,2px)}3.78%{transform:none}4.31%{transform:none}4.81%{transform:translate(0,2px)}6.18%{transform:none}6.71%{transform:none}7.21%{transform:translate(0,2px)}8.59%{transform:none}9.12%{transform:none}9.62%{transform:translate(0,2px)}10.99%{transform:none}11.52%{transform:none}12.02%{transform:translate(0,2px)}13.39%{transform:none}13.92%{transform:none}14.42%{transform:translate(0,2px)}15.80%{transform:none}16.33%{transform:none}16.83%{transform:translate(0,2px)}18.20%{transform:none}18.73%{transform:none}19.23%{transform:translate(0,2px)}20.61%{transform:none}21.13%{transform:none}21.63%{transform:translate(0,2px)}23.01%{transform:none}23.54%{transform:none}24.04%{transform:translate(0,2px)}25.41%{transform:none}25.94%{transform:none}26.44%{transform:translate(0,2px)}27.82%{transform:none}28.35%{transform:none}28.85%{transform:translate(0,2px)}30.22%{transform:none}30.75%{transform:none}31.25%{transform:translate(0,2px)}32.62%{transform:none}33.15%{transform:none}33.65%{transform:translate(0,2px)}35.03%{transform:none}35.56%{transform:none}36.06%{transform:translate(0,2px)}37.43%{transform:none}37.96%{transform:none}38.46%{transform:translate(0,2px)}39.84%{transform:none}40.37%{transform:none}40.87%{transform:translate(0,2px)}42.24%{transform:none}42.77%{transform:none}43.27%{transform:translate(0,2px)}44.64%{transform:none}45.17%{transform:none}45.67%{transform:translate(0,2px)}47.05%{transform:none}47.58%{transform:none}48.08%{transform:translate(0,2px)}49.45%{transform:none}49.98%{transform:none}50.48%{transform:translate(0,2px)}51.86%{transform:none}52.38%{transform:none}52.88%{transform:translate(0,2px)}54.26%{transform:none}54.79%{transform:none}55.29%{transform:translate(0,2px)}56.66%{transform:none}57.19%{transform:none}57.69%{transform:translate(0,2px)}59.07%{transform:none}59.60%{transform:none}60.10%{transform:translate(0,2px)}61.47%{transform:none}}.pp-handA{animation:pp-handA 8000ms ease-in-out 2452ms infinite}
+@keyframes pp-handB{0.70%{transform:none}1.20%{transform:translate(0,2px)}2.58%{transform:none}3.11%{transform:none}3.61%{transform:translate(0,2px)}4.98%{transform:none}5.51%{transform:none}6.01%{transform:translate(0,2px)}7.38%{transform:none}7.91%{transform:none}8.41%{transform:translate(0,2px)}9.79%{transform:none}10.32%{transform:none}10.82%{transform:translate(0,2px)}12.19%{transform:none}12.72%{transform:none}13.22%{transform:translate(0,2px)}14.60%{transform:none}15.12%{transform:none}15.62%{transform:translate(0,2px)}17.00%{transform:none}17.53%{transform:none}18.03%{transform:translate(0,2px)}19.40%{transform:none}19.93%{transform:none}20.43%{transform:translate(0,2px)}21.81%{transform:none}22.34%{transform:none}22.84%{transform:translate(0,2px)}24.21%{transform:none}24.74%{transform:none}25.24%{transform:translate(0,2px)}26.62%{transform:none}27.14%{transform:none}27.64%{transform:translate(0,2px)}29.02%{transform:none}29.55%{transform:none}30.05%{transform:translate(0,2px)}31.42%{transform:none}31.95%{transform:none}32.45%{transform:translate(0,2px)}33.83%{transform:none}34.36%{transform:none}34.86%{transform:translate(0,2px)}36.23%{transform:none}36.76%{transform:none}37.26%{transform:translate(0,2px)}38.63%{transform:none}39.16%{transform:none}39.66%{transform:translate(0,2px)}41.04%{transform:none}41.57%{transform:none}42.07%{transform:translate(0,2px)}43.44%{transform:none}43.97%{transform:none}44.47%{transform:translate(0,2px)}45.85%{transform:none}46.38%{transform:none}46.88%{transform:translate(0,2px)}48.25%{transform:none}48.78%{transform:none}49.28%{transform:translate(0,2px)}50.65%{transform:none}51.18%{transform:none}51.68%{transform:translate(0,2px)}53.06%{transform:none}53.59%{transform:none}54.09%{transform:translate(0,2px)}55.46%{transform:none}55.99%{transform:none}56.49%{transform:translate(0,2px)}57.87%{transform:none}58.39%{transform:none}58.89%{transform:translate(0,2px)}60.27%{transform:none}60.80%{transform:none}61.30%{transform:translate(0,2px)}62.67%{transform:none}}.pp-handB{animation:pp-handB 8000ms ease-in-out 2452ms infinite}
+@keyframes pp-p1{4.81%{transform:none;opacity:1}5.56%{transform:translateY(1px);opacity:.55}6.81%{transform:none;opacity:1}13.22%{transform:none;opacity:1}13.97%{transform:translateY(1px);opacity:.55}15.22%{transform:none;opacity:1}18.03%{transform:none;opacity:1}18.78%{transform:translateY(1px);opacity:.55}20.03%{transform:none;opacity:1}28.85%{transform:none;opacity:1}29.60%{transform:translateY(1px);opacity:.55}30.85%{transform:none;opacity:1}38.46%{transform:none;opacity:1}39.21%{transform:translateY(1px);opacity:.55}40.46%{transform:none;opacity:1}43.27%{transform:none;opacity:1}44.02%{transform:translateY(1px);opacity:.55}45.27%{transform:none;opacity:1}45.67%{transform:none;opacity:1}46.42%{transform:translateY(1px);opacity:.55}47.67%{transform:none;opacity:1}}.pp-k1{animation:pp-print .35s ease-out 1672ms forwards,pp-p1 8000ms linear 2452ms infinite}
+@keyframes pp-p2{6.01%{transform:none;opacity:1}6.76%{transform:translateY(1px);opacity:.55}8.01%{transform:none;opacity:1}19.23%{transform:none;opacity:1}19.98%{transform:translateY(1px);opacity:.55}21.23%{transform:none;opacity:1}22.84%{transform:none;opacity:1}23.59%{transform:translateY(1px);opacity:.55}24.84%{transform:none;opacity:1}25.24%{transform:none;opacity:1}25.99%{transform:translateY(1px);opacity:.55}27.24%{transform:none;opacity:1}}.pp-k2{animation:pp-print .35s ease-out 1672ms forwards,pp-p2 8000ms linear 2452ms infinite}
+@keyframes pp-p3{9.62%{transform:none;opacity:1}10.37%{transform:translateY(1px);opacity:.55}11.62%{transform:none;opacity:1}32.45%{transform:none;opacity:1}33.20%{transform:translateY(1px);opacity:.55}34.45%{transform:none;opacity:1}55.29%{transform:none;opacity:1}56.04%{transform:translateY(1px);opacity:.55}57.29%{transform:none;opacity:1}}.pp-k3{animation:pp-print .35s ease-out 1672ms forwards,pp-p3 8000ms linear 2452ms infinite}
+@keyframes pp-p4{1.20%{transform:none;opacity:1}1.95%{transform:translateY(1px);opacity:.55}3.20%{transform:none;opacity:1}49.28%{transform:none;opacity:1}50.03%{transform:translateY(1px);opacity:.55}51.28%{transform:none;opacity:1}52.88%{transform:none;opacity:1}53.63%{transform:translateY(1px);opacity:.55}54.88%{transform:none;opacity:1}}.pp-k4{animation:pp-print .35s ease-out 1672ms forwards,pp-p4 8000ms linear 2452ms infinite}
+@keyframes pp-p6{16.83%{transform:none;opacity:1}17.58%{transform:translateY(1px);opacity:.55}18.83%{transform:none;opacity:1}}.pp-k6{animation:pp-print .35s ease-out 1672ms forwards,pp-p6 8000ms linear 2452ms infinite}
+@keyframes pp-p7{24.04%{transform:none;opacity:1}24.79%{transform:translateY(1px);opacity:.55}26.04%{transform:none;opacity:1}33.65%{transform:none;opacity:1}34.40%{transform:translateY(1px);opacity:.55}35.65%{transform:none;opacity:1}44.47%{transform:none;opacity:1}45.22%{transform:translateY(1px);opacity:.55}46.47%{transform:none;opacity:1}}.pp-k7{animation:pp-print .35s ease-out 1710ms forwards,pp-p7 8000ms linear 2452ms infinite}
+@keyframes pp-p9{50.48%{transform:none;opacity:1}51.23%{transform:translateY(1px);opacity:.55}52.48%{transform:none;opacity:1}57.69%{transform:none;opacity:1}58.44%{transform:translateY(1px);opacity:.55}59.69%{transform:none;opacity:1}}.pp-k9{animation:pp-print .35s ease-out 1710ms forwards,pp-p9 8000ms linear 2452ms infinite}
+@keyframes pp-p10{0.00%{transform:none;opacity:1}0.75%{transform:translateY(1px);opacity:.55}2.00%{transform:none;opacity:1}}.pp-k10{animation:pp-print .35s ease-out 1710ms forwards,pp-p10 8000ms linear 2452ms infinite}
+@keyframes pp-p11{10.82%{transform:none;opacity:1}11.57%{transform:translateY(1px);opacity:.55}12.82%{transform:none;opacity:1}}.pp-k11{animation:pp-print .35s ease-out 1710ms forwards,pp-p11 8000ms linear 2452ms infinite}
+@keyframes pp-p12{2.40%{transform:none;opacity:1}3.15%{transform:translateY(1px);opacity:.55}4.40%{transform:none;opacity:1}42.07%{transform:none;opacity:1}42.82%{transform:translateY(1px);opacity:.55}44.07%{transform:none;opacity:1}}.pp-k12{animation:pp-print .35s ease-out 1710ms forwards,pp-p12 8000ms linear 2452ms infinite}
+@keyframes pp-p13{20.43%{transform:none;opacity:1}21.18%{transform:translateY(1px);opacity:.55}22.43%{transform:none;opacity:1}21.63%{transform:none;opacity:1}22.38%{transform:translateY(1px);opacity:.55}23.63%{transform:none;opacity:1}27.64%{transform:none;opacity:1}28.39%{transform:translateY(1px);opacity:.55}29.64%{transform:none;opacity:1}51.68%{transform:none;opacity:1}52.43%{transform:translateY(1px);opacity:.55}53.68%{transform:none;opacity:1}}.pp-k13{animation:pp-print .35s ease-out 1710ms forwards,pp-p13 8000ms linear 2452ms infinite}
+@keyframes pp-p16{15.62%{transform:none;opacity:1}16.38%{transform:translateY(1px);opacity:.55}17.62%{transform:none;opacity:1}}.pp-k16{animation:pp-print .35s ease-out 1748ms forwards,pp-p16 8000ms linear 2452ms infinite}
+@keyframes pp-p17{8.41%{transform:none;opacity:1}9.16%{transform:translateY(1px);opacity:.55}10.41%{transform:none;opacity:1}26.44%{transform:none;opacity:1}27.19%{transform:translateY(1px);opacity:.55}28.44%{transform:none;opacity:1}46.88%{transform:none;opacity:1}47.63%{transform:translateY(1px);opacity:.55}48.88%{transform:none;opacity:1}54.09%{transform:none;opacity:1}54.84%{transform:translateY(1px);opacity:.55}56.09%{transform:none;opacity:1}58.89%{transform:none;opacity:1}59.64%{transform:translateY(1px);opacity:.55}60.89%{transform:none;opacity:1}}.pp-k17{animation:pp-print .35s ease-out 1748ms forwards,pp-p17 8000ms linear 2452ms infinite}
+@keyframes pp-p18{12.02%{transform:none;opacity:1}12.77%{transform:translateY(1px);opacity:.55}14.02%{transform:none;opacity:1}31.25%{transform:none;opacity:1}32.00%{transform:translateY(1px);opacity:.55}33.25%{transform:none;opacity:1}37.26%{transform:none;opacity:1}38.01%{transform:translateY(1px);opacity:.55}39.26%{transform:none;opacity:1}39.66%{transform:none;opacity:1}40.41%{transform:translateY(1px);opacity:.55}41.66%{transform:none;opacity:1}40.87%{transform:none;opacity:1}41.62%{transform:translateY(1px);opacity:.55}42.87%{transform:none;opacity:1}56.49%{transform:none;opacity:1}57.24%{transform:translateY(1px);opacity:.55}58.49%{transform:none;opacity:1}}.pp-k18{animation:pp-print .35s ease-out 1748ms forwards,pp-p18 8000ms linear 2452ms infinite}
+@keyframes pp-p20{3.61%{transform:none;opacity:1}4.36%{transform:translateY(1px);opacity:.55}5.61%{transform:none;opacity:1}34.86%{transform:none;opacity:1}35.61%{transform:translateY(1px);opacity:.55}36.86%{transform:none;opacity:1}36.06%{transform:none;opacity:1}36.81%{transform:translateY(1px);opacity:.55}38.06%{transform:none;opacity:1}}.pp-k20{animation:pp-print .35s ease-out 1748ms forwards,pp-p20 8000ms linear 2452ms infinite}
+@keyframes pp-p21{61.30%{transform:none;opacity:1}62.05%{transform:translateY(1px);opacity:.55}63.30%{transform:none;opacity:1}}.pp-k21{animation:pp-print .35s ease-out 1786ms forwards,pp-p21 8000ms linear 2452ms infinite}
+@keyframes pp-p26{7.21%{transform:none;opacity:1}7.96%{transform:translateY(1px);opacity:.55}9.21%{transform:none;opacity:1}30.05%{transform:none;opacity:1}30.80%{transform:translateY(1px);opacity:.55}32.05%{transform:none;opacity:1}60.10%{transform:none;opacity:1}60.85%{transform:translateY(1px);opacity:.55}62.10%{transform:none;opacity:1}}.pp-k26{animation:pp-print .35s ease-out 1824ms forwards,pp-p26 8000ms linear 2452ms infinite}
+@keyframes pp-p27{48.08%{transform:none;opacity:1}48.83%{transform:translateY(1px);opacity:.55}50.08%{transform:none;opacity:1}}.pp-k27{animation:pp-print .35s ease-out 1824ms forwards,pp-p27 8000ms linear 2452ms infinite}
+@keyframes pp-p29{14.42%{transform:none;opacity:1}15.17%{transform:translateY(1px);opacity:.55}16.42%{transform:none;opacity:1}}.pp-k29{animation:pp-print .35s ease-out 1824ms forwards,pp-p29 8000ms linear 2452ms infinite}
+@media (prefers-reduced-motion: reduce){.pp-c,.pp-k,.pp-s{animation:none;opacity:1}.pp-handA,.pp-handB{animation:none}}
+</style>
+<defs><linearGradient id="tk-g" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".1" stop-color="#fff"/><stop offset=".9" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="tk-m" maskUnits="userSpaceOnUse" x="20" y="806.1949999999999" width="318" height="29.75"><rect x="20" y="806.1949999999999" width="318" height="29.75" fill="url(#tk-g)"/></mask></defs>
+<rect x="0.5" y="0.5" width="357" height="855" rx="14" fill="#151b23" stroke="#2a313c"/>
+<g transform="translate(64.0 24) scale(0.27414)"><g class="pp">
+<text class="pp-c" x="213.6" y="26" style="animation-delay:76ms">#####-#####</text>
+<text class="pp-c" x="154.8" y="41" style="animation-delay:114ms">##</text>
+<text class="pp-c" x="314.4" y="41" style="animation-delay:114ms">##</text>
+<text class="pp-c" x="112.8" y="56" style="animation-delay:152ms">##</text>
+<text class="pp-c" x="331.2" y="56" style="animation-delay:152ms">##</text>
+<text class="pp-c" x="96.0" y="71" style="animation-delay:190ms">##</text>
+<text class="pp-c" x="348.0" y="71" style="animation-delay:190ms">#</text>
+<text class="pp-c" x="79.2" y="86" style="animation-delay:228ms">##</text>
+<text class="pp-c" x="356.4" y="86" style="animation-delay:228ms">#</text>
+<text class="pp-c" x="70.8" y="101" style="animation-delay:266ms">#</text>
+<text class="pp-c" x="356.4" y="101" style="animation-delay:266ms">###</text>
+<text class="pp-c" x="54.0" y="116" style="animation-delay:304ms">##</text>
+<text class="pp-c" x="373.2" y="116" style="animation-delay:304ms">#+</text>
+<text class="pp-c" x="45.6" y="131" style="animation-delay:342ms">#-</text>
+<text class="pp-c" x="381.6" y="131" style="animation-delay:342ms">##</text>
+<text class="pp-c" x="37.2" y="146" style="animation-delay:380ms">#</text>
+<text class="pp-c" x="398.4" y="146" style="animation-delay:380ms">##</text>
+<text class="pp-c" x="28.8" y="161" style="animation-delay:418ms">#</text>
+<text class="pp-c" x="96.0" y="161" style="animation-delay:418ms">#</text>
+<text class="pp-c" x="121.2" y="161" style="animation-delay:418ms">#</text>
+<text class="pp-c" x="415.2" y="161" style="animation-delay:418ms">##+</text>
+<text class="pp-c" x="20.4" y="176" style="animation-delay:456ms">#</text>
+<text class="pp-c" x="62.4" y="176" style="animation-delay:456ms">####</text>
+<text class="pp-c" x="129.6" y="176" style="animation-delay:456ms">#</text>
+<text class="pp-c" x="457.2" y="176" style="animation-delay:456ms">###</text>
+<text class="pp-c" x="12.0" y="191" style="animation-delay:494ms">##</text>
+<text class="pp-c" x="54.0" y="191" style="animation-delay:494ms">#</text>
+<text class="pp-c" x="79.2" y="191" style="animation-delay:494ms">##+</text>
+<text class="pp-c" x="138.0" y="191" style="animation-delay:494ms">-</text>
+<text class="pp-c" x="499.2" y="191" style="animation-delay:494ms">##</text>
+<text class="pp-c" x="12.0" y="206" style="animation-delay:532ms">#</text>
+<text class="pp-c" x="45.6" y="206" style="animation-delay:532ms">##</text>
+<text class="pp-c" x="70.8" y="206" style="animation-delay:532ms">#####</text>
+<text class="pp-c" x="121.2" y="206" style="animation-delay:532ms">###.</text>
+<text class="pp-c" x="163.2" y="206" style="animation-delay:532ms">#</text>
+<text class="pp-c" x="348.0" y="206" style="animation-delay:532ms">##</text>
+<text class="pp-c" x="524.4" y="206" style="animation-delay:532ms">#</text>
+<text class="pp-c" x="12.0" y="221" style="animation-delay:570ms">#</text>
+<text class="pp-c" x="28.8" y="221" style="animation-delay:570ms">.####</text>
+<text class="pp-c" x="79.2" y="221" style="animation-delay:570ms">####</text>
+<text class="pp-c" x="129.6" y="221" style="animation-delay:570ms">###</text>
+<text class="pp-c" x="171.6" y="221" style="animation-delay:570ms">#</text>
+<text class="pp-c" x="339.6" y="221" style="animation-delay:570ms">+</text>
+<text class="pp-c" x="507.6" y="221" style="animation-delay:570ms">.</text>
+<text class="pp-c" x="541.2" y="221" style="animation-delay:570ms">#</text>
+<text class="pp-c" x="12.0" y="236" style="animation-delay:608ms">#</text>
+<text class="pp-c" x="37.2" y="236" style="animation-delay:608ms">#-</text>
+<text class="pp-c" x="62.4" y="236" style="animation-delay:608ms">#</text>
+<text class="pp-c" x="87.6" y="236" style="animation-delay:608ms">#+######</text>
+<text class="pp-c" x="171.6" y="236" style="animation-delay:608ms">#</text>
+<text class="pp-c" x="549.6" y="236" style="animation-delay:608ms">#</text>
+<text class="pp-c" x="12.0" y="251" style="animation-delay:646ms">#</text>
+<text class="pp-c" x="37.2" y="251" style="animation-delay:646ms">#-</text>
+<text class="pp-c" x="62.4" y="251" style="animation-delay:646ms">#######+###</text>
+<text class="pp-c" x="180.0" y="251" style="animation-delay:646ms">#</text>
+<text class="pp-c" x="558.0" y="251" style="animation-delay:646ms">#</text>
+<text class="pp-c" x="12.0" y="266" style="animation-delay:684ms">#</text>
+<text class="pp-c" x="37.2" y="266" style="animation-delay:684ms">####+##</text>
+<text class="pp-c" x="112.8" y="266" style="animation-delay:684ms">#+###</text>
+<text class="pp-c" x="180.0" y="266" style="animation-delay:684ms">#</text>
+<text class="pp-c" x="566.4" y="266" style="animation-delay:684ms">#</text>
+<text class="pp-c" x="12.0" y="281" style="animation-delay:722ms">##</text>
+<text class="pp-c" x="45.6" y="281" style="animation-delay:722ms">####</text>
+<text class="pp-c" x="96.0" y="281" style="animation-delay:722ms">###+###</text>
+<text class="pp-c" x="171.6" y="281" style="animation-delay:722ms">-#</text>
+<text class="pp-c" x="566.4" y="281" style="animation-delay:722ms">#</text>
+<text class="pp-c" x="20.4" y="296" style="animation-delay:760ms">##</text>
+<text class="pp-c" x="54.0" y="296" style="animation-delay:760ms">#</text>
+<text class="pp-c" x="70.8" y="296" style="animation-delay:760ms">##+</text>
+<text class="pp-c" x="104.4" y="296" style="animation-delay:760ms">######</text>
+<text class="pp-c" x="171.6" y="296" style="animation-delay:760ms">#-</text>
+<text class="pp-c" x="566.4" y="296" style="animation-delay:760ms">#</text>
+<text class="pp-c" x="37.2" y="311" style="animation-delay:798ms">-#</text>
+<text class="pp-c" x="79.2" y="311" style="animation-delay:798ms">+###+</text>
+<text class="pp-c" x="138.0" y="311" style="animation-delay:798ms">#</text>
+<text class="pp-c" x="171.6" y="311" style="animation-delay:798ms">#</text>
+<text class="pp-c" x="566.4" y="311" style="animation-delay:798ms">#</text>
+<text class="pp-c" x="54.0" y="326" style="animation-delay:836ms">##</text>
+<text class="pp-c" x="104.4" y="326" style="animation-delay:836ms">+##</text>
+<text class="pp-c" x="154.8" y="326" style="animation-delay:836ms">##</text>
+<text class="pp-c" x="222.0" y="326" style="animation-delay:836ms">#</text>
+<text class="pp-c" x="558.0" y="326" style="animation-delay:836ms">##</text>
+<text class="pp-c" x="87.6" y="341" style="animation-delay:874ms">########</text>
+<text class="pp-c" x="230.4" y="341" style="animation-delay:874ms">.</text>
+<text class="pp-c" x="558.0" y="341" style="animation-delay:874ms">#</text>
+<text class="pp-c" x="54.0" y="356" style="animation-delay:912ms">.</text>
+<text class="pp-c" x="163.2" y="356" style="animation-delay:912ms">#</text>
+<text class="pp-c" x="247.2" y="356" style="animation-delay:912ms">#</text>
+<text class="pp-c" x="280.8" y="356" style="animation-delay:912ms">.</text>
+<text class="pp-c" x="507.6" y="356" style="animation-delay:912ms">.</text>
+<text class="pp-c" x="541.2" y="356" style="animation-delay:912ms">##</text>
+<text class="pp-c" x="574.8" y="356" style="animation-delay:912ms">#</text>
+<text class="pp-c" x="650.4" y="356" style="animation-delay:912ms">#####################</text>
+<text class="pp-c" x="171.6" y="371" style="animation-delay:950ms">##</text>
+<text class="pp-c" x="264.0" y="371" style="animation-delay:950ms">#</text>
+<text class="pp-c" x="524.4" y="371" style="animation-delay:950ms">####</text>
+<text class="pp-c" x="583.2" y="371" style="animation-delay:950ms">#</text>
+<text class="pp-c" x="650.4" y="371" style="animation-delay:950ms">-</text>
+<text class="pp-c" x="801.6" y="371" style="animation-delay:950ms">#</text>
+<text class="pp-c" x="818.4" y="371" style="animation-delay:950ms">#</text>
+<text class="pp-c" x="188.4" y="386" style="animation-delay:988ms">#</text>
+<text class="pp-c" x="280.8" y="386" style="animation-delay:988ms">###########################</text>
+<text class="pp-c" x="532.8" y="386" style="animation-delay:988ms">###</text>
+<text class="pp-c" x="574.8" y="386" style="animation-delay:988ms">##</text>
+<text class="pp-c" x="642.0" y="386" style="animation-delay:988ms">#</text>
+<text class="pp-c" x="658.8" y="386" style="animation-delay:988ms">##</text>
+<text class="pp-c" x="776.4" y="386" style="animation-delay:988ms">#</text>
+<text class="pp-c" x="801.6" y="386" style="animation-delay:988ms">#</text>
+<text class="pp-c" x="818.4" y="386" style="animation-delay:988ms">#</text>
+<text class="pp-c" x="196.8" y="401" style="animation-delay:1026ms">#</text>
+<text class="pp-c" x="272.4" y="401" style="animation-delay:1026ms">#</text>
+<text class="pp-c" x="633.6" y="401" style="animation-delay:1026ms">#+</text>
+<text class="pp-c" x="658.8" y="401" style="animation-delay:1026ms">#</text>
+<text class="pp-c" x="776.4" y="401" style="animation-delay:1026ms">#</text>
+<text class="pp-c" x="793.2" y="401" style="animation-delay:1026ms">#</text>
+<text class="pp-c" x="810.0" y="401" style="animation-delay:1026ms">#-</text>
+<text class="pp-c" x="196.8" y="416" style="animation-delay:1064ms">#</text>
+<text class="pp-c" x="272.4" y="416" style="animation-delay:1064ms">##</text>
+<text class="pp-c" x="364.8" y="416" style="animation-delay:1064ms">.</text>
+<text class="pp-c" x="633.6" y="416" style="animation-delay:1064ms">#</text>
+<text class="pp-c" x="650.4" y="416" style="animation-delay:1064ms">#</text>
+<text class="pp-c" x="776.4" y="416" style="animation-delay:1064ms">.</text>
+<text class="pp-c" x="793.2" y="416" style="animation-delay:1064ms">#</text>
+<text class="pp-c" x="810.0" y="416" style="animation-delay:1064ms">#</text>
+<text class="pp-c" x="188.4" y="431" style="animation-delay:1102ms">.#####</text>
+<text class="pp-c" x="280.8" y="431" style="animation-delay:1102ms">#</text>
+<text class="pp-c" x="390.0" y="431" style="animation-delay:1102ms">.</text>
+<text class="pp-c" x="633.6" y="431" style="animation-delay:1102ms">+</text>
+<text class="pp-c" x="650.4" y="431" style="animation-delay:1102ms">#</text>
+<text class="pp-c" x="768.0" y="431" style="animation-delay:1102ms">#</text>
+<text class="pp-c" x="784.8" y="431" style="animation-delay:1102ms">#</text>
+<text class="pp-c" x="810.0" y="431" style="animation-delay:1102ms">-</text>
+<text class="pp-c" x="196.8" y="446" style="animation-delay:1140ms">#</text>
+<text class="pp-c" x="289.2" y="446" style="animation-delay:1140ms">#</text>
+<text class="pp-c" x="625.2" y="446" style="animation-delay:1140ms">#</text>
+<text class="pp-c" x="642.0" y="446" style="animation-delay:1140ms">#</text>
+<text class="pp-c" x="784.8" y="446" style="animation-delay:1140ms">#</text>
+<text class="pp-c" x="801.6" y="446" style="animation-delay:1140ms">#</text>
+<text class="pp-c" x="196.8" y="461" style="animation-delay:1178ms">#</text>
+<text class="pp-c" x="297.6" y="461" style="animation-delay:1178ms">####</text>
+<text class="pp-c" x="390.0" y="461" style="animation-delay:1178ms">#</text>
+<text class="pp-c" x="642.0" y="461" style="animation-delay:1178ms">-</text>
+<text class="pp-c" x="759.6" y="461" style="animation-delay:1178ms">#</text>
+<text class="pp-c" x="793.2" y="461" style="animation-delay:1178ms">##</text>
+<text class="pp-c" x="196.8" y="476" style="animation-delay:1216ms">#</text>
+<text class="pp-c" x="306.0" y="476" style="animation-delay:1216ms">#</text>
+<text class="pp-c" x="348.0" y="476" style="animation-delay:1216ms">###</text>
+<text class="pp-c" x="398.4" y="476" style="animation-delay:1216ms">#</text>
+<text class="pp-c" x="616.8" y="476" style="animation-delay:1216ms">#</text>
+<text class="pp-c" x="633.6" y="476" style="animation-delay:1216ms">#</text>
+<text class="pp-c" x="759.6" y="476" style="animation-delay:1216ms">#</text>
+<text class="pp-c" x="776.4" y="476" style="animation-delay:1216ms">#</text>
+<text class="pp-c" x="793.2" y="476" style="animation-delay:1216ms">#</text>
+<text class="pp-c" x="188.4" y="491" style="animation-delay:1254ms">##</text>
+<text class="pp-c" x="406.8" y="491" style="animation-delay:1254ms">#</text>
+<text class="pp-c" x="608.4" y="491" style="animation-delay:1254ms">.#</text>
+<text class="pp-c" x="633.6" y="491" style="animation-delay:1254ms">#</text>
+<text class="pp-c" x="751.2" y="491" style="animation-delay:1254ms">#</text>
+<text class="pp-c" x="784.8" y="491" style="animation-delay:1254ms">.#</text>
+<text class="pp-c" x="188.4" y="506" style="animation-delay:1292ms">#</text>
+<text class="pp-c" x="230.4" y="506" style="animation-delay:1292ms">.</text>
+<text class="pp-c" x="415.2" y="506" style="animation-delay:1292ms">#</text>
+<text class="pp-c" x="608.4" y="506" style="animation-delay:1292ms">#</text>
+<text class="pp-c" x="625.2" y="506" style="animation-delay:1292ms">+</text>
+<text class="pp-c" x="751.2" y="506" style="animation-delay:1292ms">#</text>
+<text class="pp-c" x="768.0" y="506" style="animation-delay:1292ms">#</text>
+<text class="pp-c" x="784.8" y="506" style="animation-delay:1292ms">#</text>
+<text class="pp-c" x="180.0" y="521" style="animation-delay:1330ms">-#</text>
+<text class="pp-c" x="423.6" y="521" style="animation-delay:1330ms">#</text>
+<text class="pp-c" x="608.4" y="521" style="animation-delay:1330ms">#</text>
+<text class="pp-c" x="751.2" y="521" style="animation-delay:1330ms">+</text>
+<text class="pp-c" x="784.8" y="521" style="animation-delay:1330ms">#</text>
+<text class="pp-c" x="180.0" y="536" style="animation-delay:1368ms">#</text>
+<text class="pp-c" x="390.0" y="536" style="animation-delay:1368ms">##</text>
+<text class="pp-c" x="600.0" y="536" style="animation-delay:1368ms">#</text>
+<text class="pp-c" x="742.8" y="536" style="animation-delay:1368ms">#</text>
+<text class="pp-c" x="759.6" y="536" style="animation-delay:1368ms">#</text>
+<text class="pp-c" x="776.4" y="536" style="animation-delay:1368ms">#</text>
+<text class="pp-c" x="171.6" y="551" style="animation-delay:1406ms">##</text>
+<text class="pp-c" x="238.8" y="551" style="animation-delay:1406ms">+#</text>
+<text class="pp-c" x="331.2" y="551" style="animation-delay:1406ms">##</text>
+<text class="pp-c" x="381.6" y="551" style="animation-delay:1406ms">#</text>
+<text class="pp-c" x="406.8" y="551" style="animation-delay:1406ms">#</text>
+<text class="pp-c" x="600.0" y="551" style="animation-delay:1406ms">#</text>
+<text class="pp-c" x="616.8" y="551" style="animation-delay:1406ms">#</text>
+<text class="pp-c" x="742.8" y="551" style="animation-delay:1406ms">.</text>
+<text class="pp-c" x="776.4" y="551" style="animation-delay:1406ms">#</text>
+<text class="pp-c" x="171.6" y="566" style="animation-delay:1444ms">#</text>
+<text class="pp-c" x="255.6" y="566" style="animation-delay:1444ms">-#</text>
+<text class="pp-c" x="348.0" y="566" style="animation-delay:1444ms">#####</text>
+<text class="pp-c" x="415.2" y="566" style="animation-delay:1444ms">#</text>
+<text class="pp-c" x="591.6" y="566" style="animation-delay:1444ms">#</text>
+<text class="pp-c" x="608.4" y="566" style="animation-delay:1444ms">#</text>
+<text class="pp-c" x="751.2" y="566" style="animation-delay:1444ms">-</text>
+<text class="pp-c" x="768.0" y="566" style="animation-delay:1444ms">#</text>
+<text class="pp-c" x="171.6" y="581" style="animation-delay:1482ms">###</text>
+<text class="pp-c" x="264.0" y="581" style="animation-delay:1482ms">#</text>
+<text class="pp-c" x="339.6" y="581" style="animation-delay:1482ms">#</text>
+<text class="pp-c" x="364.8" y="581" style="animation-delay:1482ms">.+##</text>
+<text class="pp-c" x="423.6" y="581" style="animation-delay:1482ms">#</text>
+<text class="pp-c" x="591.6" y="581" style="animation-delay:1482ms">#</text>
+<text class="pp-c" x="608.4" y="581" style="animation-delay:1482ms">#</text>
+<text class="pp-c" x="734.4" y="581" style="animation-delay:1482ms">#</text>
+<text class="pp-c" x="751.2" y="581" style="animation-delay:1482ms">#</text>
+<text class="pp-c" x="768.0" y="581" style="animation-delay:1482ms">#</text>
+<text class="pp-c" x="163.2" y="596" style="animation-delay:1520ms">###</text>
+<text class="pp-c" x="255.6" y="596" style="animation-delay:1520ms">#</text>
+<text class="pp-c" x="322.8" y="596" style="animation-delay:1520ms">#</text>
+<text class="pp-c" x="381.6" y="596" style="animation-delay:1520ms">#.##</text>
+<text class="pp-c" x="432.0" y="596" style="animation-delay:1520ms">#</text>
+<text class="pp-c" x="742.8" y="596" style="animation-delay:1520ms">#</text>
+<text class="pp-c" x="759.6" y="596" style="animation-delay:1520ms">#</text>
+<text class="pp-c" x="163.2" y="611" style="animation-delay:1558ms">#+#</text>
+<text class="pp-c" x="196.8" y="611" style="animation-delay:1558ms">#</text>
+<text class="pp-c" x="255.6" y="611" style="animation-delay:1558ms">-</text>
+<text class="pp-c" x="348.0" y="611" style="animation-delay:1558ms">+#-</text>
+<text class="pp-c" x="390.0" y="611" style="animation-delay:1558ms">#</text>
+<text class="pp-c" x="583.2" y="611" style="animation-delay:1558ms">#</text>
+<text class="pp-c" x="600.0" y="611" style="animation-delay:1558ms">-#</text>
+<text class="pp-c" x="726.0" y="611" style="animation-delay:1558ms">#</text>
+<text class="pp-c" x="742.8" y="611" style="animation-delay:1558ms">#</text>
+<text class="pp-c" x="759.6" y="611" style="animation-delay:1558ms">#</text>
+<text class="pp-c" x="163.2" y="626" style="animation-delay:1596ms">#</text>
+<text class="pp-c" x="180.0" y="626" style="animation-delay:1596ms">#</text>
+<text class="pp-c" x="196.8" y="626" style="animation-delay:1596ms">#</text>
+<text class="pp-c" x="264.0" y="626" style="animation-delay:1596ms">#</text>
+<text class="pp-c" x="398.4" y="626" style="animation-delay:1596ms">###+</text>
+<text class="pp-c" x="566.4" y="626" style="animation-delay:1596ms">##-</text>
+<text class="pp-c" x="616.8" y="626" style="animation-delay:1596ms">#</text>
+<text class="pp-c" x="751.2" y="626" style="animation-delay:1596ms">#</text>
+<text class="pp-c" x="163.2" y="641" style="animation-delay:1634ms">#</text>
+<text class="pp-c" x="180.0" y="641" style="animation-delay:1634ms">#</text>
+<text class="pp-c" x="196.8" y="641" style="animation-delay:1634ms">#</text>
+<text class="pp-c" x="247.2" y="641" style="animation-delay:1634ms">.</text>
+<text class="pp-c" x="264.0" y="641" style="animation-delay:1634ms">#</text>
+<text class="pp-c" x="406.8" y="641" style="animation-delay:1634ms">#</text>
+<text class="pp-c" x="507.6" y="641" style="animation-delay:1634ms">.</text>
+<text class="pp-c" x="608.4" y="641" style="animation-delay:1634ms">#</text>
+<text class="pp-c" x="717.6" y="641" style="animation-delay:1634ms">#</text>
+<text class="pp-c" x="734.4" y="641" style="animation-delay:1634ms">#</text>
+<text class="pp-c" x="751.2" y="641" style="animation-delay:1634ms">#</text>
+<text class="pp-c" x="163.2" y="656" style="animation-delay:1672ms">#.#+#</text>
+<text class="pp-c" x="272.4" y="656" style="animation-delay:1672ms">#</text>
+<text class="pp-c" x="406.8" y="656" style="animation-delay:1672ms">#</text>
+<text class="pp-c" x="616.8" y="656" style="animation-delay:1672ms">#</text>
+<text class="pp-c" x="726.0" y="656" style="animation-delay:1672ms">-</text>
+<text class="pp-c" x="742.8" y="656" style="animation-delay:1672ms">##</text>
+<text class="pp-c" x="146.4" y="671" style="animation-delay:1710ms">.</text>
+<text class="pp-c" x="163.2" y="671" style="animation-delay:1710ms">#</text>
+<text class="pp-c" x="280.8" y="671" style="animation-delay:1710ms">#</text>
+<text class="pp-c" x="415.2" y="671" style="animation-delay:1710ms">#</text>
+<text class="pp-c" x="516.0" y="671" style="animation-delay:1710ms">.</text>
+<text class="pp-c" x="709.2" y="671" style="animation-delay:1710ms">#</text>
+<text class="pp-c" x="726.0" y="671" style="animation-delay:1710ms">#</text>
+<text class="pp-c" x="742.8" y="671" style="animation-delay:1710ms">#</text>
+<text class="pp-c" x="163.2" y="686" style="animation-delay:1748ms">##</text>
+<text class="pp-c" x="264.0" y="686" style="animation-delay:1748ms">####</text>
+<text class="pp-c" x="423.6" y="686" style="animation-delay:1748ms">+</text>
+<text class="pp-c" x="541.2" y="686" style="animation-delay:1748ms">+</text>
+<text class="pp-c" x="591.6" y="686" style="animation-delay:1748ms">+</text>
+<text class="pp-c" x="608.4" y="686" style="animation-delay:1748ms">#</text>
+<text class="pp-c" x="717.6" y="686" style="animation-delay:1748ms">-</text>
+<text class="pp-c" x="742.8" y="686" style="animation-delay:1748ms">#</text>
+<text class="pp-c" x="70.8" y="701" style="animation-delay:1786ms">-#</text>
+<text class="pp-c" x="121.2" y="701" style="animation-delay:1786ms">+#</text>
+<text class="pp-c" x="171.6" y="701" style="animation-delay:1786ms">#</text>
+<text class="pp-c" x="423.6" y="701" style="animation-delay:1786ms">#</text>
+<text class="pp-c" x="474.0" y="701" style="animation-delay:1786ms">.</text>
+<text class="pp-c" x="490.8" y="701" style="animation-delay:1786ms">.</text>
+<text class="pp-c" x="524.4" y="701" style="animation-delay:1786ms">+</text>
+<text class="pp-c" x="608.4" y="701" style="animation-delay:1786ms">.</text>
+<text class="pp-c" x="717.6" y="701" style="animation-delay:1786ms">#</text>
+<text class="pp-c" x="734.4" y="701" style="animation-delay:1786ms">#</text>
+<text class="pp-c" x="54.0" y="716" style="animation-delay:1824ms">##</text>
+<text class="pp-c" x="146.4" y="716" style="animation-delay:1824ms">####</text>
+<text class="pp-c" x="423.6" y="716" style="animation-delay:1824ms">#</text>
+<text class="pp-c" x="616.8" y="716" style="animation-delay:1824ms">##</text>
+<text class="pp-c" x="642.0" y="716" style="animation-delay:1824ms">#</text>
+<text class="pp-c" x="700.8" y="716" style="animation-delay:1824ms">#+</text>
+<text class="pp-c" x="726.0" y="716" style="animation-delay:1824ms">+#</text>
+<text class="pp-c" x="70.8" y="731" style="animation-delay:1862ms">#</text>
+<text class="pp-c" x="129.6" y="731" style="animation-delay:1862ms">.</text>
+<text class="pp-c" x="171.6" y="731" style="animation-delay:1862ms">##</text>
+<text class="pp-c" x="205.2" y="731" style="animation-delay:1862ms">..</text>
+<text class="pp-c" x="423.6" y="731" style="animation-delay:1862ms">##</text>
+<text class="pp-c" x="448.8" y="731" style="animation-delay:1862ms">+-#.+.</text>
+<text class="pp-c" x="507.6" y="731" style="animation-delay:1862ms">###+##########++##########</text>
+<text class="pp-c" x="87.6" y="746" style="animation-delay:1900ms">.</text>
+<text class="pp-c" x="104.4" y="746" style="animation-delay:1900ms">##</text>
+<text class="pp-c" x="423.6" y="746" style="animation-delay:1900ms">##</text>
+<text class="pp-c" x="717.6" y="746" style="animation-delay:1900ms">#</text>
+<text class="pp-c" x="154.8" y="761" style="animation-delay:1938ms">#########</text>
+<text class="pp-c" x="415.2" y="761" style="animation-delay:1938ms">###################################-</text>
+<text class="pp-c" x="339.6" y="776" style="animation-delay:1976ms">#########</text>
+<text class="pp-c" x="591.6" y="791" style="animation-delay:2014ms">.</text>
+<text class="pp-s" x="709.2" y="386" style="animation-delay:2452ms">+</text>
+<text class="pp-s" x="717.6" y="386" style="animation-delay:2548ms">#</text>
+<text class="pp-s" x="726.0" y="386" style="animation-delay:2644ms">#</text>
+<text class="pp-s" x="734.4" y="386" style="animation-delay:2740ms">#</text>
+<text class="pp-s" x="742.8" y="386" style="animation-delay:2837ms">#</text>
+<text class="pp-s" x="751.2" y="386" style="animation-delay:2933ms">#</text>
+<text class="pp-s" x="759.6" y="386" style="animation-delay:3029ms">#</text>
+<text class="pp-s" x="768.0" y="386" style="animation-delay:3125ms">#</text>
+<text class="pp-s" x="675.6" y="416" style="animation-delay:3221ms">#</text>
+<text class="pp-s" x="684.0" y="416" style="animation-delay:3317ms">#</text>
+<text class="pp-s" x="692.4" y="416" style="animation-delay:3414ms">#</text>
+<text class="pp-s" x="709.2" y="416" style="animation-delay:3510ms">#</text>
+<text class="pp-s" x="717.6" y="416" style="animation-delay:3606ms">-</text>
+<text class="pp-s" x="726.0" y="416" style="animation-delay:3702ms">#</text>
+<text class="pp-s" x="742.8" y="416" style="animation-delay:3798ms">+</text>
+<text class="pp-s" x="675.6" y="446" style="animation-delay:3894ms">+</text>
+<text class="pp-s" x="684.0" y="446" style="animation-delay:3990ms">#</text>
+<text class="pp-s" x="692.4" y="446" style="animation-delay:4087ms">#</text>
+<text class="pp-s" x="717.6" y="446" style="animation-delay:4183ms">#</text>
+<text class="pp-s" x="726.0" y="446" style="animation-delay:4279ms">#</text>
+<text class="pp-s" x="700.8" y="476" style="animation-delay:4375ms">#</text>
+<text class="pp-s" x="709.2" y="476" style="animation-delay:4471ms">#</text>
+<text class="pp-s" x="717.6" y="476" style="animation-delay:4567ms">#</text>
+<text class="pp-s" x="726.0" y="476" style="animation-delay:4664ms">#</text>
+<text class="pp-s" x="734.4" y="476" style="animation-delay:4760ms">#</text>
+<text class="pp-s" x="667.2" y="491" style="animation-delay:4856ms">#</text>
+<text class="pp-s" x="675.6" y="491" style="animation-delay:4952ms">#</text>
+<text class="pp-s" x="717.6" y="506" style="animation-delay:5048ms">#</text>
+<text class="pp-s" x="726.0" y="506" style="animation-delay:5144ms">#</text>
+<text class="pp-s" x="650.4" y="536" style="animation-delay:5240ms">#</text>
+<text class="pp-s" x="658.8" y="536" style="animation-delay:5337ms">#</text>
+<text class="pp-s" x="667.2" y="536" style="animation-delay:5433ms">#</text>
+<text class="pp-s" x="709.2" y="551" style="animation-delay:5529ms">#</text>
+<text class="pp-s" x="642.0" y="581" style="animation-delay:5625ms">#</text>
+<text class="pp-s" x="650.4" y="581" style="animation-delay:5721ms">-</text>
+<text class="pp-s" x="700.8" y="581" style="animation-delay:5817ms">.</text>
+<text class="pp-s" x="684.0" y="596" style="animation-delay:5914ms">#</text>
+<text class="pp-s" x="625.2" y="626" style="animation-delay:6010ms">#</text>
+<text class="pp-s" x="642.0" y="641" style="animation-delay:6106ms">#</text>
+<text class="pp-s" x="650.4" y="641" style="animation-delay:6202ms">#</text>
+<text class="pp-s" x="667.2" y="656" style="animation-delay:6298ms">#</text>
+<text class="pp-s" x="633.6" y="671" style="animation-delay:6394ms">#</text>
+<text class="pp-s" x="642.0" y="671" style="animation-delay:6490ms">#</text>
+<text class="pp-s" x="684.0" y="671" style="animation-delay:6587ms">-</text>
+<text class="pp-s" x="692.4" y="671" style="animation-delay:6683ms">#</text>
+<text class="pp-s" x="700.8" y="671" style="animation-delay:6779ms">.</text>
+<text class="pp-s" x="650.4" y="686" style="animation-delay:6875ms">#</text>
+<text class="pp-s" x="658.8" y="686" style="animation-delay:6971ms">#</text>
+<text class="pp-s" x="667.2" y="686" style="animation-delay:7067ms">#</text>
+<text class="pp-s" x="684.0" y="686" style="animation-delay:7164ms">#</text>
+<text class="pp-s" x="625.2" y="701" style="animation-delay:7260ms">#</text>
+<text class="pp-s" x="692.4" y="701" style="animation-delay:7356ms">#</text>
+<g class="pp-handA">
+<text class="pp-c" x="440.4" y="551" style="animation-delay:1406ms">#####+#</text>
+<text class="pp-c" x="482.4" y="566" style="animation-delay:1444ms">#</text>
+<text class="pp-c" x="457.2" y="581" style="animation-delay:1482ms">###</text>
+<text class="pp-c" x="482.4" y="596" style="animation-delay:1520ms">#</text>
+<text class="pp-c" x="482.4" y="611" style="animation-delay:1558ms">#</text>
+<text class="pp-c" x="499.2" y="611" style="animation-delay:1558ms">#</text>
+<text class="pp-c" x="457.2" y="626" style="animation-delay:1596ms">###</text>
+<text class="pp-c" x="457.2" y="641" style="animation-delay:1634ms">#</text>
+<text class="pp-c" x="482.4" y="641" style="animation-delay:1634ms">###</text>
+</g>
+<g class="pp-handB">
+<text class="pp-c" x="524.4" y="551" style="animation-delay:1406ms">##</text>
+<text class="pp-c" x="532.8" y="566" style="animation-delay:1444ms">#</text>
+<text class="pp-c" x="507.6" y="581" style="animation-delay:1482ms">####</text>
+<text class="pp-c" x="532.8" y="596" style="animation-delay:1520ms">#</text>
+<text class="pp-c" x="541.2" y="611" style="animation-delay:1558ms">#</text>
+<text class="pp-c" x="507.6" y="626" style="animation-delay:1596ms">##+</text>
+</g>
+<text class="pp-k pp-k0" x="482.4" y="656">#</text>
+<text class="pp-k pp-k1" x="490.8" y="656">#</text>
+<text class="pp-k pp-k2" x="524.4" y="656">#</text>
+<text class="pp-k pp-k3" x="541.2" y="656">#</text>
+<text class="pp-k pp-k4" x="549.6" y="656">#</text>
+<text class="pp-k pp-k5" x="558.0" y="656">#</text>
+<text class="pp-k pp-k6" x="566.4" y="656">#</text>
+<text class="pp-k pp-k7" x="432.0" y="671">#</text>
+<text class="pp-k pp-k8" x="474.0" y="671">#</text>
+<text class="pp-k pp-k9" x="499.2" y="671">#</text>
+<text class="pp-k pp-k10" x="532.8" y="671">#</text>
+<text class="pp-k pp-k11" x="549.6" y="671">#</text>
+<text class="pp-k pp-k12" x="574.8" y="671">#</text>
+<text class="pp-k pp-k13" x="591.6" y="671">#</text>
+<text class="pp-k pp-k14" x="490.8" y="686">#</text>
+<text class="pp-k pp-k15" x="516.0" y="686">#</text>
+<text class="pp-k pp-k16" x="524.4" y="686">#</text>
+<text class="pp-k pp-k17" x="532.8" y="686">#</text>
+<text class="pp-k pp-k18" x="549.6" y="686">#</text>
+<text class="pp-k pp-k19" x="566.4" y="686">#</text>
+<text class="pp-k pp-k20" x="583.2" y="686">#</text>
+<text class="pp-k pp-k21" x="499.2" y="701">#</text>
+<text class="pp-k pp-k22" x="541.2" y="701">#</text>
+<text class="pp-k pp-k23" x="558.0" y="701">#</text>
+<text class="pp-k pp-k24" x="583.2" y="701">#</text>
+<text class="pp-k pp-k25" x="600.0" y="701">#</text>
+<text class="pp-k pp-k26" x="541.2" y="716">#</text>
+<text class="pp-k pp-k27" x="558.0" y="716">#</text>
+<text class="pp-k pp-k28" x="574.8" y="716">#</text>
+<text class="pp-k pp-k29" x="600.0" y="716">#</text>
+</g></g>
+<g transform="translate(0 264.4)"><text class="cmd" x="20" y="12.2" font-size="12">$ whoami</text><text class="h" x="20" y="51.7" font-size="26">Hi! I&#x27;m Arjun</text><text class="m" x="20" y="85.4">I&#x27;m a passionate developer with a keen</text><text class="m" x="20" y="107.9">interest in open-source projects and</text><text class="m" x="20" y="130.4">community building.</text><text class="mk" x="20" y="170.5" font-size="14.5">›</text><text class="t" x="40" y="170.5">Using Swift to develop <tspan class="b">Resolve</tspan></text><text class="mk" x="20" y="202.2" font-size="14.5">›</text><text class="t" x="40" y="202.2">Taking courses in software engineering,</text><text class="t" x="40" y="224.0">algorithms, testing, and user interfaces</text><text class="mk" x="20" y="255.7" font-size="14.5">›</text><text class="t" x="40" y="255.7">Looking to collaborate on open-source</text><text class="t" x="40" y="277.5">projects in software development and AI</text><text class="mk" x="20" y="309.2" font-size="14.5">›</text><text class="t" x="40" y="309.2">Fun fact: I love photography! Take a look</text><text class="t" x="40" y="331.0">at some of <tspan class="lnk">my photos</tspan> ;)</text></g>
+<line class="rule" x1="20" x2="338" y1="621.1949999999999" y2="621.1949999999999"/>
+<text class="cmd" x="20" y="653.4" font-size="12">$ cat ~/now.txt</text>
+<text class="mk" x="20" y="685.1" font-size="14.5">›</text>
+<text class="t" x="40" y="685.1">Exchange semester at the <tspan class="b">Technical</tspan></text>
+<text class="t" x="40" y="706.9"><tspan class="b">University of Munich</tspan></text>
+<text class="mk" x="20" y="734.6" font-size="14.5">›</text>
+<text class="t" x="40" y="734.6">Software Engineer at <tspan class="b">Ivo AI </tspan>in San</text>
+<text class="t" x="40" y="756.4">Francisco</text>
+<text class="cmd" x="20" y="794.4" font-size="12">$ ls ~/tools-and-technologies</text>
+<g mask="url(#tk-m)"><g class="tk"><text class="t" x="20.0" y="826.1" textLength="1772" lengthAdjust="spacing">Swift <tspan class="mk">✳</tspan> SwiftUI <tspan class="mk">✳</tspan> TypeScript <tspan class="mk">✳</tspan> React <tspan class="mk">✳</tspan> Next.js <tspan class="mk">✳</tspan> Node.js <tspan class="mk">✳</tspan> Tailwind CSS <tspan class="mk">✳</tspan> Python <tspan class="mk">✳</tspan> Supabase <tspan class="mk">✳</tspan> Firebase <tspan class="mk">✳</tspan> PostgreSQL <tspan class="mk">✳</tspan> Docker <tspan class="mk">✳</tspan> Git <tspan class="mk">✳</tspan> Figma <tspan class="mk">✳</tspan> JavaScript <tspan class="mk">✳</tspan> Java <tspan class="mk">✳</tspan> C++ <tspan class="mk">✳</tspan> GitHub <tspan class="mk">✳</tspan></text><text class="t" x="1806.5" y="826.1" textLength="1772" lengthAdjust="spacing">Swift <tspan class="mk">✳</tspan> SwiftUI <tspan class="mk">✳</tspan> TypeScript <tspan class="mk">✳</tspan> React <tspan class="mk">✳</tspan> Next.js <tspan class="mk">✳</tspan> Node.js <tspan class="mk">✳</tspan> Tailwind CSS <tspan class="mk">✳</tspan> Python <tspan class="mk">✳</tspan> Supabase <tspan class="mk">✳</tspan> Firebase <tspan class="mk">✳</tspan> PostgreSQL <tspan class="mk">✳</tspan> Docker <tspan class="mk">✳</tspan> Git <tspan class="mk">✳</tspan> Figma <tspan class="mk">✳</tspan> JavaScript <tspan class="mk">✳</tspan> Java <tspan class="mk">✳</tspan> C++ <tspan class="mk">✳</tspan> GitHub <tspan class="mk">✳</tspan></text><text class="t" x="3593.0" y="826.1" textLength="1772" lengthAdjust="spacing">Swift <tspan class="mk">✳</tspan> SwiftUI <tspan class="mk">✳</tspan> TypeScript <tspan class="mk">✳</tspan> React <tspan class="mk">✳</tspan> Next.js <tspan class="mk">✳</tspan> Node.js <tspan class="mk">✳</tspan> Tailwind CSS <tspan class="mk">✳</tspan> Python <tspan class="mk">✳</tspan> Supabase <tspan class="mk">✳</tspan> Firebase <tspan class="mk">✳</tspan> PostgreSQL <tspan class="mk">✳</tspan> Docker <tspan class="mk">✳</tspan> Git <tspan class="mk">✳</tspan> Figma <tspan class="mk">✳</tspan> JavaScript <tspan class="mk">✳</tspan> Java <tspan class="mk">✳</tspan> C++ <tspan class="mk">✳</tspan> GitHub <tspan class="mk">✳</tspan></text></g></g>
+<text class="cmd" x="0" y="892.2" font-size="12">$ open ~/photos</text>
+<text class="cmdm" x="358" y="892.2" font-size="12" text-anchor="end">see all ↗</text>
+</svg>
